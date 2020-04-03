@@ -1,6 +1,6 @@
 # Generating BDDs Using VarexC
 
-This repository contains artifacts for generating BDDs for the following
+This zip file contains artifacts for generating BDDs for the following
 systems:
 
 * Triangle
@@ -11,7 +11,7 @@ systems:
 
 ## Requirement
 
-JDK 8
+JDK 8 or later
 
 ## Steps
 
@@ -26,6 +26,7 @@ Execute the following commands in terminal:
 Variational execution runs the test cases that come with each system and
 generate BDDs in the current folder, one `txt` file per test case. Generated
 BDDs can be used to compute a complete set of SSHOMs via SAT solving, the steps
-of which are documented in the main artifact repository. Note that the main
-artifact repository contains pre-computed BDDs already, so this repository is
-only relevant for those who are interested in how BDDs are generated. 
+of which are not include in this zip file, but are part of the `SSHOM-Finder`
+artifact, which we also share. The `SSHOM-Finder` artifact contains
+pre-computed BDDs already, so this zip file is only relevant for those who are
+curious about how BDDs are generated. 
